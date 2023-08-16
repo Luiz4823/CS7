@@ -1,0 +1,106 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-family: 'Roboto';
+    
+}
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+h3{
+    background-color: #1cd1b0;
+    padding: 10px 15px;
+}
+h1{
+    background-color: #00669f;
+    padding: 20px 15px;
+}
+h2{
+    padding: 10px;
+}
+section{
+    margin-top: 250px;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+a{
+    background-color: #00669f;
+    color: #f3f3f3;
+    margin-top: 25px;
+    display: inline-block;
+    padding: 15px 35px;
+    text-decoration: none;
+    
+}
+p{
+    text-align: justify;
+}
+i{
+    color: #cc2424;
+    position: absolute;
+    left: 20px;
+    top: 15px;
+    font-size: 1.7em;
+}
+footer{
+    margin-top: auto;
+}
+
+.card{
+    flex-shrink: 0;
+    width: 270px;
+    display: inline-block;
+    text-align: center;
+    margin: 0 25px;
+    margin-bottom: 100px;
+    -webkit-box-shadow: -3px 14px 7px -9px rgba(148,148,148,1);
+    -moz-box-shadow: -3px 14px 7px -9px rgba(148,148,148,1);
+    box-shadow: -3px 14px 7px -9px rgba(148,148,148,1);
+    
+}
+.top-batman{
+    background-image: url(/resources/img/portada-batman.jpeg);
+    background-size: 100%;
+}
+.top-harley{
+    background-image: url(/resources/img/portada-hailey.jpeg);
+    background-size: 100%;
+}
+.top{
+    width: 100%;
+    height: 150px;
+    border-radius: 15px 15px 0 0;
+    position: relative;
+}
+.profile{
+    position: absolute;
+    border-radius: 50%;
+    height: 90px;
+    left: calc(50% - 45px);
+    top: -50px;
+    -webkit-box-shadow: -3px 14px 7px -9px rgba(148,148,148,1);
+    -moz-box-shadow: -3px 14px 7px -9px rgba(148,148,148,1);
+    box-shadow: -3px 14px 7px -9px rgba(148,148,148,1);
+}
+.bottom{
+    background-color: #f3f3f3;
+    padding: 50px 25px;
+    position: relative;
+}
+.portadas{
+    width: 100%;
+    height: 100%;
+}
+.footer-text{
+    padding: 25px;
+    background-color: #00669f;
+    color: #f3f3f3;
+}
